@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/arghyagod-coder/bytesutil"
+	"github.com/lithdew/bytesutil"
 	"github.com/valyala/fasthttp"
 )
 

@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/arghyagod-coder/bytesutil"
+	"github.com/lithdew/bytesutil"
 	"github.com/stretchr/testify/require"
 )
 

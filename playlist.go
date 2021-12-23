@@ -1,7 +1,7 @@
 package youtube
 
 import (
-	"github.com/arghyagod-coder/bytesutil"
+	"github.com/lithdew/bytesutil"
 	"github.com/valyala/fastjson"
 )
 
