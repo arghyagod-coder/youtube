@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/lithdew/nicehttp"
-	"github.com/lithdew/youtube"
+	"github.com/arghyagod-coder/nicehttp"
+	"github.com/arghyagod-coder/youtube"
 )
 
 func check(err error) {

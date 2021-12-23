@@ -1,10 +1,12 @@
 # youtube
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](LICENSE)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/lithdew/youtube)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/arghyagod-coder/youtube)
 [![Discord Chat](https://img.shields.io/discord/697002823123992617)](https://discord.gg/HZEbkeQ)
 
 A library for retrieving metadata and obtaining direct links to video-only/audio-only/muxed streams of videos on YouTube in Go.
+
+# This project is forked from lithdew's youtube library which did not work anymore (Currently 23.12.2021)
 
 ## Inspiration
 
@@ -29,12 +31,12 @@ Many thanks to the library and blog posts from [Tyrrrz/YoutubeExplode](https://g
 ## Setup
 
 ```
-$ go get github.com/lithdew/youtube
+$ go get github.com/arghyagod-coder/youtube
 ```
 
 ## Example
 
-This example uses my library [lithdew/nicehttp](https://github.com/lithdew/nicehttp) for downloading video/audio from YouTube as fast as possible in fixed-sized chunks with multiple workers working in parallel.
+This example uses lithdew's library [lithdew/nicehttp](https://github.com/lithdew/nicehttp) for downloading video/audio from YouTube as fast as possible in fixed-sized chunks with multiple workers working in parallel.
 
 It searches for the song `The Glitch Mob - Animus Vox` on YouTube and downloads its audio, video, and muxed versions to disk.
 
@@ -45,8 +47,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/lithdew/nicehttp"
-	"github.com/lithdew/youtube"
+	"github.com/arghyagod-coder/nicehttp"
+	"github.com/arghyagod-coder/youtube"
 )
 
 func check(err error) {
@@ -140,13 +142,13 @@ func main() {
 You can run this example by running:
 
 ```shell
-$ go run github.com/lithdew/youtube/cmd/example
+$ go run github.com/arghyagod-coder/youtube/cmd/example
 ```
 
 An extended example is also provided for downloading to disk the highest quality audio-only stream of any YouTube video. It may be run by running:
 
 ```shell
-$ go run github.com/lithdew/youtube/cmd/music https://www.youtube.com/watch?v=jPan651rVMs
+$ go run github.com/arghyagod-coder/youtube/cmd/music https://www.youtube.com/watch?v=jPan651rVMs
 ```
 
 ## What's missing?

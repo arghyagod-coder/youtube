@@ -3,9 +3,10 @@ package youtube
 import (
 	"errors"
 	"fmt"
+	"time"
+
 	"github.com/lithdew/bytesutil"
 	"github.com/valyala/fastjson"
-	"time"
 )
 
 type Assets struct {

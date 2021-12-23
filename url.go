@@ -3,9 +3,10 @@ package youtube
 import (
 	"errors"
 	"fmt"
-	"github.com/lithdew/bytesutil"
-	"github.com/valyala/fasthttp"
 	"regexp"
+
+	"github.com/arghyagod-coder/bytesutil"
+	"github.com/valyala/fasthttp"
 )
 
 var RegexStreamID = regexp.MustCompile(`(?i)([a-z0-9_-]{11})`)

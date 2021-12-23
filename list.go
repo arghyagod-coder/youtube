@@ -3,9 +3,10 @@ package youtube
 import (
 	"bytes"
 	"encoding/csv"
+	"time"
+
 	"github.com/lithdew/bytesutil"
 	"github.com/valyala/fastjson"
-	"time"
 )
 
 type ListItem struct {

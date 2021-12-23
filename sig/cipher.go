@@ -3,7 +3,7 @@ package sig
 import (
 	"errors"
 	"fmt"
-	"github.com/lithdew/bytesutil"
+	"github.com/arghyagod-coder/bytesutil"
 	"regexp"
 	"strconv"
 	"strings"

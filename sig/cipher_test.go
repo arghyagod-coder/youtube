@@ -1,10 +1,11 @@
 package sig
 
 import (
-	"github.com/lithdew/bytesutil"
-	"github.com/stretchr/testify/require"
 	"io/ioutil"
 	"testing"
+
+	"github.com/arghyagod-coder/bytesutil"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCipher(t *testing.T) {

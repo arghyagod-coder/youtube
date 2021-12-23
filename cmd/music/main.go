@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/lithdew/nicehttp"
-	"github.com/lithdew/youtube"
 	"log"
 	"path"
 	"regexp"
 	"strings"
+
+	"github.com/arghyagod-coder/nicehttp"
+	"github.com/arghyagod-coder/youtube"
 )
 
 var (
