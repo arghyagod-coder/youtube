@@ -115,7 +115,7 @@ func (c *Client) SearchTimeout(query string, page uint, timeout time.Duration) (
 func (c *Client) SearchDeadline(query string, page uint, deadline time.Time) (SearchResult, error) {
 	var result SearchResult
 
-	uri := []byte("https://www.youtube.com/search_ajax?style=json")
+	uri := []byte("https://www.youtube.com/results?style=json")
 
 	uri = append(uri, "&search_query="...)
 	uri = append(uri, url.PathEscape(query)...)
